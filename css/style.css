@@ -1,0 +1,58 @@
+.woo-product {
+    vertical-align: middle;
+    text-align: left;
+    margin-bottom: 5px !important;
+    /*width: 100%;*/
+   /* display: inline-block;*/
+   /* border-bottom: 1px solid #eee;*/
+    padding-bottom: 5px;
+}
+.woo-product .lefmss{
+    margin-top: 0;
+    /*float: left;
+    width: 40px;*/
+}
+.woo-product .gmwproduct-title{
+   /* margin-left: 5px;*/
+}
+.rightss{
+	/*margin-left: 5px;
+    float: left;*/
+}
+.woo-product a{
+text-decoration: none !important;
+}
+.woo-innder {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.gmproduct-price{
+	    text-decoration: none;
+  /*  display: inline-block;*/
+    width: 100%;
+}
+.gmproduct-rating{
+	/*float: left;*/
+	width: 100%;
+}
+.gmproduct-rating .star-rating{
+	/*float: left !important;*/
+}
+.productsbycat_list .lefmss img{
+    max-width: 50px;
+}
+.productsbycat_grid {
+    display: grid;
+    grid-gap: 10px;
+}
+.productsbycat_grid .lefmss img{
+    max-width: 115px;
+}
+.productsbycat_grid .woo-innder{
+    flex-direction: column;
+}
+
+.woocommerce.productsbycat_grid{
+	 grid-template-columns: repeat(<?php echo $woo_show_per_column;?>, 1fr) !important;
+}
